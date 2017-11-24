@@ -1,0 +1,265 @@
+@charset"utf-8";
+
+
+
+/* */ 
+
+body{
+    
+    background-image:url(woody.jpg);
+    background-attachment: fixed;
+    font-family: amatic SC;
+
+}
+
+.jumbotron{
+    background-image: url(hd_woodgrain.jpg);
+    padding: 10px;
+    background-size: contain;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: rosybrown;
+    box-shadow: 2px 5px 15px #4f4e4e;
+   align-content: center;
+}
+
+#jumboleft{
+    background:transparent;
+    padding-left: 0px;
+}
+
+#jumboright{
+    background:transparent;
+    font-size: 45pt;
+    color: #f7f1ea;
+    text-shadow: 4px 4px 2px black;
+    padding-right: 0px;
+    padding-top: 30px;
+    line-height: .9;
+    letter-spacing: 2pt;
+
+}
+
+#fadein1{
+    display:none;
+}
+
+#fadein2{
+   display: none;
+}
+
+#fadein3{
+    display: none;
+}
+
+#jumbo{
+    padding: 20px;
+}
+
+
+nav{
+    margin-top: 1%;
+}
+
+
+
+.navbar-light{
+    background-color:orange; 
+    color:white;
+}
+
+.col-sm-6{
+    background-color: beige;
+    font-size: 24pt;
+}
+
+a{
+    color:whitesmoke;
+    font-size: 14pt;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 
+}
+
+.nav li{
+    color:whitesmoke;
+    font-size: 14pt;
+    background: linear-gradient(orange,#f4b342 );
+ 
+}
+
+.navbar-brand{
+    font-size: 2em;
+    color:white; 
+    font-family:amatic SC;
+}
+
+.icon-bar{
+    background-color: white;
+}
+
+#fa fa-instagram{
+    background-color: white;
+}
+
+#indgredients{
+    height: 220px;
+    background-image: url(chocochips.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    font-size: 45pt;
+    padding-top: 35px;
+    text-shadow: 3px 3px black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ 
+}
+
+#history{
+    height: 250px;
+    background-color: white;
+    background-image: url(sunny_skate.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    text-align: center;
+    align-content: center;
+    padding-top: 20px;
+    font-size: 26pt;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#orderhere{
+    height: 250px;
+    background-color: white;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#gotoorder{
+    height: 200px;
+    float: left;
+    align-content: left;
+    padding: 30px;
+    font-size: 20pt
+
+}
+
+#about{
+    height: 450px;
+    background-color: white;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2pt;
+    border-color: saddlebrown;
+    align-content: center;
+    background-image: url(sunny_skate.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    padding: inherit;
+    font-size: 18pt;
+    border-radius: 10px;
+    
+}
+
+
+
+#order{
+    height: 980px;
+
+    background-color: beige;
+    border-radius: 40px;
+    padding: 45px;
+    font-size: 20pt;
+    line-height: 1em;
+    align-content: center;
+}
+
+#homepage{
+    background-color: skyblue;
+    font-size: 25pt;
+    border-radius: 15px;
+    width: 200px;
+}
+
+#col1{
+    height: 300px;
+    padding: 30px;
+    padding-top: 70px;
+    font-size: 30pt;
+    align-content: center;
+    text-align: center;
+    line-height: 1.5;
+    background-color: lightcyan;
+    background-size: 50%;
+    margin-top: 3%;
+}
+
+#col2{
+    height: 300px;
+    background-image: url(_NS_3351.jpg);
+    opacity: 20pt;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 3%;
+}
+
+#divider{
+    height: 30px;
+    width: 80%;
+    border-bottom-style:dotted;
+    border-bottom-color: darkgoldenrod;
+    border-bottom-width: thick;
+}
+
+
+footer{
+    background-color: orange;
+    margin-top: 3%;
+    height: 250px;
+    font-size: 25pt;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 17px;
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: #e2802f;
+}
+
+#border1{
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+#border2{
+    border-right-style: solid;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+footer li{
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
